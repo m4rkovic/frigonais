@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.chip {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4px;
+  background: #f7e6d2;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 88px;
+  height: 40px;
+}
+
+.chip:hover {
+  background-color: #f7e6d2;
+}
+
+.span {
+  width: 17px;
+  height: 20px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8ca365;
+}
+
+.visible {
+  opacity: 100;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.option {
+  display: flex;
+  width: inherit;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.option:hover {
+  color: rgb(188, 45, 45);
+}
