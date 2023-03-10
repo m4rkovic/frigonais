@@ -133,6 +133,12 @@
   width: 25%;
 }
 
+@media screen and (max-width: 2420px) {
+  .about-container {
+    margin: 0 18%;
+  }
+}
+
 @media screen and (max-width: 1520px) {
   .about-container {
     margin: 0 10%;
