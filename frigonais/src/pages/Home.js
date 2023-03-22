@@ -95,7 +95,7 @@ const Home = () => {
           <div className="location-info">
             <MapOne />
             <br />
-            <p>Friongais</p>
+            <p>Frigonais</p>
             <p>
               <MdLocationPin />
               Niš, Serbia
